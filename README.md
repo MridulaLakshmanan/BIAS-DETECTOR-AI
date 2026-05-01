@@ -26,6 +26,9 @@ These biases:
 
 — *before it reaches the user*
 
+# Deployed Link - CHECK IT OUT!!!
+https://bias-detector-service-1098515389701.us-central1.run.app/
+
 ---
 
 ## ⚙️ How It Works
@@ -44,6 +47,7 @@ Our system uses a **4-stage bias mitigation pipeline**:
 - 📊 **Live Bias Score & Confidence Indicators**
 - 🔍 **Transparent Audit Logs & Reasoning**
 - 📈 **Dashboard for Bias Trends & Analysis**
+- 🔄 **Retraining Dataset Generation**
 - 🧪 **Demo Mode (Force Bias Simulation)**
 
 ---
@@ -102,9 +106,40 @@ The system:
 - PostgreSQL + Redis  
 - Celery (Async tasks)
 
+  
+### ☁️ Deployment
+- Google Cloud Platform (GCP)  
+- Scalable backend services & API hosting  
+
 ---
 
 ## 📂 Project Structure
 frontend/ → HTML, Tailwind CSS, Js (Chat + Dashboard)
 backend/ → FastAPI + Bias Pipeline
 data/ → Logs & retraining datasets
+---
+
+##🌱 Impact
+- Promotes Responsible AI
+- Reduces algorithmic discrimination
+- Increases transparency & trust
+- Works across industries
+---
+## 🔮 Future Scope
+- Plug-and-play fairness API
+- Enterprise integrations
+- Domain-specific bias policies
+- Automated fine-tuning pipelines
+---
+##🤝 Contributing
+
+Contributions are welcome!
+Feel free to open issues or submit pull requests.
+
+## License
+
+- MIT License
+
+## Final Thought
+
+# AI should not just be intelligent — it should be fair.
